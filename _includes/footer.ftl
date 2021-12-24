@@ -79,7 +79,7 @@
                 <p class="copyright text-muted">
                     Copyright &copy; ${options.blog_title!} ${(options.birthday)?number_to_date?string("yyyy")}
                     <br>
-                    Theme by <a href="http://huangxuan.me">Hux</a> |
+                    Theme by <a href="https://github.com/fjz97/halo-theme-hux">Hux</a> |
                     Published with <a href="https://halo.run" target="_blank">Halo</a><br>
                     <@global.footer />
                 </p>
