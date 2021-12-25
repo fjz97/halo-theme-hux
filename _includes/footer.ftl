@@ -14,53 +14,32 @@
                         </a>
                     </li>
                     </#if>
-                    <#if settings.twitter??>
-                    <li>
-                        <a href="${settings.twitter}" title="twitter">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    </#if>
-                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
-                    <#if settings.zhihu??>
-                    <li>
-                        <a target="_blank" href="${settings.zhihu}" title="zhihu">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa  fa-stack-1x fa-inverse">知</i>
-                            </span>
-                        </a>
-                    </li>
-                    </#if>
-                    <#if settings.weibo??>
-                    <li>
-                        <a target="_blank" href="${settings.weibo}" title="weibo">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    </#if>
-                    <#if settings.facebook??>
-                        <li>
-                            <a target="_blank" href="${settings.facebook}" title="FaceBook">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                            </a>
-                        </li>
-                    </#if>
                     <#if settings.github??>
                     <li>
                         <a target="_blank" href="${settings.github}" title="GitHub">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    </#if>
+                    <#if settings.linkedin??>
+                    <li>
+                        <a target="_blank" href="${settings.linkedin}" title="LinkedIn">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    </#if>
+                    <#if settings.steam??>
+                    <li>
+                        <a target="_blank" href="${settings.steam}" title="Steam">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-steam fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>

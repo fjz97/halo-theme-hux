@@ -137,42 +137,32 @@
                                 </a>
                             </li>
                             </#if>
-                            <#if settings.twitter??>
+                            <#if settings.github??>
                             <li>
-                                <a href="${settings.twitter}" title="Twitter">
+                                <a target="_blank" href="${settings.github}" title="GitHub">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
                             </#if>
-                            <#if settings.zhihu??>
+                            <#if settings.linkedin??>
                             <li>
-                                <a target="_blank" href="${settings.zhihu}" title="知乎">
+                                <a target="_blank" href="${settings.linkedin}" title="LinkedIn">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa  fa-stack-1x fa-inverse">知</i>
+                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
                             </#if>
-                            <#if settings.weibo??>
-                            <li>
-                                <a target="_blank" href="${settings.weibo}" title="微博">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            </#if>
-                            <#if settings.facebook??>
+                            <#if settings.steam??>
                                 <li>
-                                    <a target="_blank" href="${settings.facebook}" title="FaceBook">
+                                    <a target="_blank" href="${settings.steam}" title="Steam">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                        <i class="fa fa-steam fa-stack-1x fa-inverse"></i>
                                     </span>
                                     </a>
                                 </li>
@@ -183,16 +173,6 @@
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-stack-1x fa-width-90 biliFont fa-inverse">1</i>
-                                    </span>
-                                </a>
-                            </li>
-                            </#if>
-                            <#if settings.github??>
-                            <li>
-                                <a target="_blank" href="${settings.github}" title="GitHub">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>

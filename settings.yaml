@@ -51,29 +51,19 @@ sns:
         - value: false
           label: 关闭
 
-    weibo:
-      name: weibo
-      label: 微博
-      type: text
-
-    zhihu:
-      name: zhihu
-      label: 知乎
-      type: text
-
     github:
       name: github
       label: Github
       type: text
 
-    twitter:
-      name: twitter
-      label: Twitter
+    linkedin:
+      name: linkedin
+      label: LinkedIn
       type: text
 
-    facebook:
-      name: facebook
-      label: Facebook
+    steam:
+      name: steam
+      label: Steam
       type: text
 
     bilibili:
