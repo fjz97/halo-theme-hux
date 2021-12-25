@@ -103,7 +103,7 @@
                 <#if settings.sidebar_tags!true>
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="${tags_url!}">FEATURED TAGS</a></h5>
+                    <h5>FEATURED TAGS</h5>
                     <div class="tags">
                         <@tagTag method="list">
                             <#if tags?? && tags?size gt 0>
@@ -121,7 +121,7 @@
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
                     <hr>
-                    <h5><a href="${blog_url!}/s/about">ABOUT ME</a></h5>
+                    <h5>ABOUT ME</h5>
                     <div class="short-about">
                         <img src="${user.avatar!}"/>
                         <p>${user.description!}</p>
